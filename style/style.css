@@ -104,10 +104,17 @@ body {
 
 .principal {
     padding: 24px 16px;
+    display: grid;
+    gap: 16px;
 }
 
 .titulo-pagina {
     font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.titulo-secao {
+    font-size: 1.2rem;
     font-weight: 700;
 }
 
@@ -118,10 +125,17 @@ body {
     background-color: #2C343A;
 }
 
+.cartao--destaque {
+    margin-bottom: 16px;
+}
+
 .cartao__conteudo {
     padding: 16px;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* duas colunas de mesmo tamanho */
+    grid-template-columns: auto 1fr; /* número de colunas */
+    /* fr: colunas de mesmo tamanho */
+    /* auto: o tamanho da coluna se ajusta ao tamanho do elemento */
+    gap: 8px; /* espaço entre elementos (linhas e colunas) */
 }
 
 .cartao__destaque {
@@ -165,6 +179,7 @@ body {
     height: 40px;
     border-radius: 10px;
     font-size: .9rem;
+    justify-self: flex-end;
 }
 
 .cartao__botao--play::before {
@@ -177,6 +192,7 @@ body {
     grid-column: span 2;
 }
 
-.cartao__botao--destaque::before {
-
+.secao {
+    display: grid;
+    gap: 16px;
 }
