@@ -178,6 +178,11 @@ body {
     margin-right: 8px;
 }
 
+.cartao__info--moeda::before {
+    content: "\e905";
+    margin-right: 8px;
+}
+
 .cartao__botao {
     display: flex;
     justify-content: center;
@@ -192,6 +197,11 @@ body {
 
 .cartao__botao--play::before {
     content: "\e90b";
+    font-size: 24px;
+}
+
+.cartao__botao--carrinho::before {
+    content: "\e901";
     font-size: 24px;
 }
 
@@ -214,7 +224,7 @@ body {
 }
 
 /* Versão desktop */
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1300px) {
     body {
         display: grid;
         grid-template-columns: auto 1fr;
