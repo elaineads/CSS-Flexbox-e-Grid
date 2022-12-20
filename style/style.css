@@ -131,7 +131,7 @@ body {
 
 .cartao__imagem--desktop {
     display: none;
-}
+} 
 
 .cartao--destaque {
     margin-bottom: 16px;
@@ -148,6 +148,14 @@ body {
 
 .cartao__destaque {
     grid-column: span 2; /* elemento ocupa duas colunas */
+}
+
+.cartao__mapa {
+    height: 100%;
+}
+
+.cartao__mapa--mobile {
+    height: 500px;
 }
 
 .cartao__titulo {
@@ -193,6 +201,7 @@ body {
     border-radius: 10px;
     font-size: .9rem;
     justify-self: flex-end;
+    cursor: pointer;
 }
 
 .cartao__botao--play::before {
