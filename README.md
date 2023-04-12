@@ -5,7 +5,7 @@ Desenvolver uma página de comunidade de skate com versão mobile utilizando CSS
 > :pushpin: Projeto desenvolvido no decorrer do curso "CSS: dispondo elementos com Flexbox e Grid" da Alura
 
 ### :fountain_pen: Protótipo
-O protótipo está disponível no Figma, neste [link](https://www.figma.com/file/o11jm73zybGxOEZfq63yOy/Dispondo-elementos-com-flexbox-e-grid-(Copy)?node-id=72%3A4607&t=bq1wwoX0UC2HVlWx-1).
+O protótipo está disponível no Figma, neste [link](https://www.figma.com/file/ibWktwVpnog76rMYOdVhks/Dispondo-elementos-com-flexbox-e-grid?node-id=54-2358&t=Xy0ct5uupTN4a3vj-0).
 
 ### :hammer_and_wrench: Tecnologias Utilizadas
 <div>
